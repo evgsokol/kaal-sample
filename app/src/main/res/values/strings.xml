@@ -42,4 +42,12 @@
 
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque tincidunt scelerisque libero. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Pellentesque arcu. Aenean placerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Sed ac dolor sit amet purus malesuada congue. Aliquam erat volutpat.</string>
 
+    <!-- Password validation texts -->
+    <string name="empty_error_text">The field must not be empty.</string>
+    <string name="short_error_text">The password is too short.</string>
+    <string name="easy_error_text">The password is too easy.</string>
+    <string name="medium_error_text">The password strength is medium.</string>
+    <string name="strong_approve_text">The password is strong.</string>
+    <string name="invalid_char_error_text">An invalid char is used in the password.</string>
+
 </resources>

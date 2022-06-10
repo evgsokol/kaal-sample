@@ -23,13 +23,16 @@ dependencies {
     testImplementation(Dependencies.TestLibs.mockkUnit)
     testImplementation(Dependencies.TestLibs.archUnit)
     testImplementation(Dependencies.TestLibs.slf4j)
-    testImplementation(Dependencies.TestLibs.kotest)
 }
 
 tasks.withType<KotlinCompile> {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+}
+
+tasks.withType<Test>().configureEach {
+    useJUnitPlatform()
 }
 
 val dokka by tasks.getting(DokkaTask::class) {
