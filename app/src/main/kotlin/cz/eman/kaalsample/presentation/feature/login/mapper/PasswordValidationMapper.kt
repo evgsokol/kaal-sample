@@ -11,7 +11,7 @@ fun PasswordValidation.toPasswordState(): PasswordValidationState {
         is PasswordValidation.Empty -> PasswordValidationState(R.string.empty_error_text)
         is PasswordValidation.Easy -> PasswordValidationState(R.string.easy_error_text)
         is PasswordValidation.Short -> PasswordValidationState(R.string.short_error_text)
-        is PasswordValidation.Medium -> PasswordValidationState(R.string.medium_error_text, false)
+        is PasswordValidation.Medium -> PasswordValidationState(R.string.medium_error_text)
         is PasswordValidation.Strong -> PasswordValidationState(R.string.strong_approve_text, false)
     }
 }
